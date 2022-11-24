@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Sigmar One', cursive;
+    
+}
+
+body{
+    background-image: url(/img_menor_tamaño/637e8fd50525b.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:55%;
+    margin-top: 0px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color:rgba(114, 13, 13, 0.808);
+}
+ul{
+    list-style: none;
+}
+body html{
+    overflow-x: hidden;
+}
+section{
+    width: 80%;
+    margin: 80px 0px -70px;
+   
+
+}
+.navbar{
+    background: #ce9c12;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    position: fixed;
+}
+
+.nav-links{
+    display: flex;
+    align-items:center;
+}
+.nav-links li{
+    margin: 0 30px;
+    background-attachment:fixed;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+.explore{
+    width: 100%;
+}
+
+form{
+    width: 400px;
+    background: #b16b1b;
+    padding: 30px;
+    margin:0px 60px auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #a13409;
+    box-shadow: 7px 13px 37px whitesmoke; 
+ background-image: url(/img_menor_tamaño/637e9b2e3ec6f.jpg); 
+    background-position: center center ;
+
+    background-size:cover;
+    
+}
+form h4{
+    font-size: 22px;
+    margin-bottom: 20px;  
+}
+input{
+    background-color: aqua;
+}
+
+.controls {
+    width: 100%;
+    background: #c01e02;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 3px solid #160e0e;
+    font-size: 18px;
+    color: white;
+  }
+
+  form p {
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  
+  form a {
+    color:  #a13409;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    color: #e2470a;
+    text-decoration: underline;
+  }
+  ::placeholder{
+    color:rgb(216, 213, 12);
+    
+  }
+  
+  form .botons {
+    width: 100%;
+    background: #c01e02;;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+  }
+  .botons:hover{
+    background: #e2470a;
+    cursor:pointer;
+  }
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 50px;
+    background:#ce9c12;
+    text-align: center;;
+}
